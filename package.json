@@ -1,0 +1,32 @@
+{
+  "name": "@kaname-png/erela.js-spotify",
+  "version": "1.0.0",
+  "description": "Spotify plugin for erela.js without api credentials",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "publish:stable": "yarn build && yarn publish --access=public"
+  },
+  "keywords": [
+    "erela.js",
+    "spotify",
+    "plugin"
+  ],
+  "author": "kaname-png",
+  "repository": "kaname-png/erela.js-spotify",
+  "homepage": "https://github.com/kaname-png/erela.js-spotify",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "erela.js": "^2.3.3",
+    "node-abort-controller": "^1.2.1",
+    "spotify-url-info": "^2.2.0",
+    "undici": "^4.0.0-alpha.3"
+  }
+}
