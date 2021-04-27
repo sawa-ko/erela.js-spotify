@@ -1,6 +1,6 @@
 {
   "name": "@kaname-png/erela.js-spotify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spotify plugin for erela.js without api credentials",
   "main": "dist/index.js",
   "files": [
