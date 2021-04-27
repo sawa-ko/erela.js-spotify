@@ -38,13 +38,13 @@ It is recommended to read the documentation to start, and the guides to use the 
 **NPM** :
 
 ```sh
-npm install erela.js-spotify
+npm install @kaname-png/erela.js-spotify
 ```
 
 **Yarn** :
 
 ```sh
-yarn add erela.js-spotify
+yarn add @kaname-png/erela.js-spotify
 ```
 
 ## Options
