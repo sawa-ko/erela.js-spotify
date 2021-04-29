@@ -27,7 +27,7 @@ export class SpotifyPlugin extends Plugin {
   private manager: Manager;
   private _search: (query: string | SearchQuery, requester?: unknown) => Promise<SearchResult>;
   private regexSpotify = /^(?:spotify:|(?:https?:\/\/(?:open|play)\.spotify\.com\/))(?:embed)?\/?(album|track|playlist)(?::|\/)((?:[0-9a-zA-Z]){22})/;
-  private options: { limitTracks?: boolean };
+  private options: { limitTracks?: number };
 
   /**
    * Options client
