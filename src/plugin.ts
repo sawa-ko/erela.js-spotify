@@ -33,7 +33,7 @@ export class SpotifyPlugin extends Plugin {
    * Options client
    * @param options Use the convertUnresolved property only on small quantities of items to avoid Rate Limit problems.
    */
-  constructor(options: { limitTracks?: boolean }) {
+  constructor(options: { limitTracks?: number }) {
     super();
 
     if (options) {
