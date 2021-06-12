@@ -1,6 +1,6 @@
 <div align = "center">
 <a href="https://www.npmjs.com/package/@kaname-png/erela.js-spotify">
-<img src="https://img.shields.io/npm/dw/@kaname-png/erela.js-spotify?color=CC3534&logo=npm&style=for-the-badge" alt="Downloads">
+<img src="https://img.shields.io/npm/dt/@kaname-png/erela.js-spotify?color=CC3534&logo=npm&style=for-the-badge" alt="Downloads">
 </a>
 
 <a href="https://www.npmjs.com/package/@kaname-png/erela.js-spotify">
